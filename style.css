@@ -15,7 +15,7 @@
 }
 .cardfooter{
     padding: 8px;
-    background-color: rgb(240, 122, 191);
+    background-color: rgb(63, 8, 40);
     display: flex;
     justify-content: right;
 }
@@ -28,14 +28,14 @@ label {
     font-weight: bold;
 }
 input[type=text]{
-    width: 80%;
+    width: 90%;
     padding: 10px 15PX;
     margin: 8px 0;
 }
 .btn1{
     border: none;
     border-radius: 8px;
-    background-color: rgb(92, 206, 206);
+    background-color: rgb(3, 3, 3);
     color:white;
     font-size: 16px;
     font-weight: bold;
