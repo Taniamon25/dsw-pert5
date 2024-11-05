@@ -1,5 +1,5 @@
 /* Add styles here */
-*{font-family: 'Times New Roman', Times, serif;}
+*{font-family: Verdana, Geneva, Tahoma, sans-serif;}
 .tengah{display: flex;justify-content: center;}
 .card{
     width: 40%;
@@ -15,7 +15,7 @@
 }
 .cardfooter{
     padding: 8px;
-    background-color: rgb(63, 8, 40);
+    background-color: rgb(13, 56, 197);
     display: flex;
     justify-content: right;
 }
@@ -34,10 +34,18 @@ input[type=text]{
 }
 .btn1{
     border: none;
-    border-radius: 8px;
-    background-color: rgb(3, 3, 3);
-    color:white;
+    border-color: darkgreen;
+    color:rgb(5, 155, 68);
     font-size: 16px;
     font-weight: bold;
     padding: 8px 20px;
+}
+.hsl{
+    font-size: 14px;
+    margin: 10px;
+    height: 200px;
+    width: 90%;
+    border: solid 1px black;
+    padding: 10px;
+    background-color: darkgray;
 }

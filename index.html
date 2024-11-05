@@ -12,7 +12,7 @@
   <div class="tengah">
 
     <div class="card">
-      <h1>ruang bangun persegi</h1>
+      <h1>Ruang Bangun Persegi</h1>
       <div class="cardbody">
 
         <form>
@@ -21,6 +21,7 @@
         <label>Nilai Lebar</label>
           <input type="text" id="LB">
         </form>
+        <div class="hsl"id="HASIL">HASIL</div>
 
       </div>
       <div class="cardfooter">
@@ -31,11 +32,19 @@
 
 <script>
   function hitung (){
- var pj= document. getElementById("PJ").value
- var lb= document. getElementById("LB").value
+ var pj= document.getElementById("PJ").value
+ var lb= document.getElementById("LB").value
+ var pjlb = parseInt(pj) + parseInt(lb)
  var luas= pj*lb
- console.log(luas)
-}
+ var res= "Hitung Luas Persegi<br>Nilai panjang"+pj+", dan Lebarnya "+lb+" menjadi:<br>Luas = panjang X lebar<br> luas = "+pj+" X " + lb+"<br>Luas= "+luas
+ var kll= 2*pjlb
+ res += "<br><br>keliling persegi<br>keliing = 2 x (panjang +lebar)"
+ res += "<br> keliling = 2 x (" +pj+ "+" +lb+")"
+ res +="<br>keliling = 2 x "+pjlb
+ res +="<br>keliling ="+kll 
+
+ document.getElementById("HASIL").innerHTML=res
+  }
 </script>
 
 
